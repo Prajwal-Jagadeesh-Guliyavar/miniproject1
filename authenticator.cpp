@@ -79,7 +79,7 @@ public:
         }
         return false;
     }
-};
+}; 
 
 int main() {
     string user_name, password;
