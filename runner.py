@@ -62,7 +62,6 @@ def verify_loginid(username, password, filepath):
                     continue
     except Exception as e:
         print(f"An error occurred: {e}")
-
     return False
 
 def main():
