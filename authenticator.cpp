@@ -10,7 +10,6 @@ protected:
     string filepath;
 public:
     FileHandler(const string& path) : filepath(path) {}
-
     void appendToFile(const string& line) {
         ofstream file(filepath, ios::app);
         if (file.is_open()) {
