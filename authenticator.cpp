@@ -9,6 +9,7 @@ class FileHandler {
 protected:
     string filepath;
 public:
+    
     FileHandler(const string& path) : filepath(path) {}
 
     void appendToFile(const string& line) {
